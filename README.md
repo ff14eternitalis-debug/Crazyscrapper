@@ -1,6 +1,6 @@
 # Crazyscrapper
 
-Projet de scraping web en Ruby.
+Web scraping project in Ruby.
 
 ## Installation
 
@@ -8,26 +8,26 @@ Projet de scraping web en Ruby.
 bundle install
 ```
 
-## Exercices
+## Scrapers
 
-### 1. Dark Trader (crypto_scraper.rb)
-Récupère le cours des cryptomonnaies depuis CoinMarketCap.
+### 1. Crypto Scraper (crypto_scraper.rb)
+Fetches cryptocurrency prices from CoinMarketCap.
 
 ```ruby
 require_relative 'lib/crypto_scraper'
 CryptoScraper.get_all_crypto_prices
 ```
 
-### 2. Mairie Christmas (townhall_scraper.rb)
-Récupère les emails des mairies du Val d'Oise.
+### 2. Townhall Scraper (townhall_scraper.rb)
+Fetches email addresses of townhalls in Val d'Oise (France).
 
 ```ruby
 require_relative 'lib/townhall_scraper'
 TownhallScraper.get_all_townhalls_emails
 ```
 
-### 3. Bonus - Députés (deputy_scraper.rb)
-Récupère la liste des députés de France avec leurs emails.
+### 3. Deputy Scraper (deputy_scraper.rb)
+Fetches the list of French parliament members with their emails.
 
 ```ruby
 require_relative 'lib/deputy_scraper'
